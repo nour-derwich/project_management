@@ -21,25 +21,25 @@ public class PrintBonProduction {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	@NotNull
+	
 	private int num;
-	@NotNull
+	
 	private String  piece;
-	@NotNull
+	
 	private Date  datep;
-	@NotNull
+	
 	private String desiglieu;
-	@NotNull
+	
 	private String desigunite;
-	@NotNull
+	
 	private String lot;
-	@NotNull
+	
 	private String article;
-	@NotNull
+	
 	private String desig;
-	@NotNull
+	
 	private String qte;
-	@NotNull
+	
 	private String valide;
 	// This will not allow the createdAt column to be updated after creation
 	@Column(updatable = false)
